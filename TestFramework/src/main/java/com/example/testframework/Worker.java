@@ -13,5 +13,6 @@ public class Worker {
 
     public void init(String config) {
         Log.i("INIT", String.format("*** TestFramework config is: %s", config));
+        Log.i("INIT", "SUCCESS");
     }
 }
